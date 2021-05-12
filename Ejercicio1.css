@@ -1,0 +1,50 @@
+.cuadrado1 {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+.click1{
+    background: white;
+}
+
+.click1.activo {
+    background:yellow;
+    
+}
+   
+.cuadrado2 {
+        width: 100px;
+        height: 100px;
+        border: 2px solid black;
+        box-sizing: border-box;
+    }
+
+    .click2{
+        background: white;
+    }
+
+    .click2.activo {
+        background: blue;
+    }
+       
+
+.cuadrado3 {
+        width: 100px;
+        height: 100px;
+        border: 2px solid black;
+        box-sizing: border-box;
+    }
+
+    .click3{
+        background: white;
+    }
+    .click3.activo {
+        background: red;
+    }
+       
+
+
+
+

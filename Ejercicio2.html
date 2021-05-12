@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTADOR CARACTERES</title>
+</head>
+<body>
+<script>
+    function contar(){
+       CantCaracteres= document.forms[0].textarea.value.length
+       document.forms[0].CantCaracteres.value=CantCaracteres
+    }
+
+
+</script>
+<form name="formula">
+  <textarea name="textarea" id="" cols="30" rows="20"></textarea>
+ <br>
+ <p>Cantidad <input type="text" name="CantCaracteres" size="4" disabled>
+</p>
+  <br>
+  <input type="button" value="Contar Caracteres" onclick="contar()">
+</form>
+    
+</body>
+</html>

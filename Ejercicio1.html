@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio1</title>
+    <link rel="stylesheet" href="Ejercicio1.css">
+</head>
+<body>
+     <button class="cuadrado1 click1"> </button>
+    <br> 
+     <button class="cuadrado2 click2"> </button>
+     <br>
+     <button class="cuadrado3 click3"> </button>
+
+        
+    <script>
+         var click1 = document.getElementsByClassName('click1')[0];
+         click1.addEventListener('click', function(e) {
+            e.target.classList.toggle('activo');
+        });
+
+        var click2 = document.getElementsByClassName('click2')[0];
+         click2.addEventListener('click', function(e) {
+            e.target.classList.toggle('activo');
+        });
+        var click3 = document.getElementsByClassName('click3')[0];
+         click3.addEventListener('click', function(e) {
+            e.target.classList.toggle('activo');
+        });
+
+
+
+
+
+
+    </script>
+
+
+
+
+    
+</body>
+</html>
